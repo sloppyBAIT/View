@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="gHC-Kl-JFv">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="gHC-Kl-JFv">
                                 <rect key="frame" x="55.666666666666657" y="64" width="319" height="829"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAR-AI-ShX">
@@ -34,8 +34,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gHC-Kl-JFv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="6G7-Kc-r1O"/>
+                            <constraint firstItem="gHC-Kl-JFv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55.670000000000002" id="VpM-1C-0aH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gHC-Kl-JFv" secondAttribute="bottom" constant="5" id="t5b-nL-BfY"/>
-                            <constraint firstItem="gHC-Kl-JFv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uGv-rK-TJ3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gHC-Kl-JFv" secondAttribute="trailing" constant="55.329999999999998" id="xsw-oc-Nma"/>
                         </constraints>
                     </view>
                 </viewController>
